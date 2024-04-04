@@ -50,9 +50,9 @@ function M.get_pkg_list(config)
 		{ name = 'java-debug-adapter', version = '0.55.0' },
 	}
 
-	if config.jdk.auto_install then
-		table.insert(dependecies, { name = 'openjdk-17', version = '17.0.2' })
-	end
+	-- if config.jdk.auto_install then
+	-- 	table.insert(dependecies, { name = 'openjdk-17', version = '17.0.2' })
+	-- end
 
 	return dependecies
 end
